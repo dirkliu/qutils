@@ -1,0 +1,23 @@
+{
+  "name": "qutils",
+  "version": "1.0.0",
+  "description": "js utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirkliu/qutils.git"
+  },
+  "keywords": [
+    "utils",
+    "javascript"
+  ],
+  "author": "Qiyue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirkliu/qutils/issues"
+  },
+  "homepage": "https://github.com/dirkliu/qutils#readme"
+}
