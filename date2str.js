@@ -1,6 +1,6 @@
 export default function (date) {
-    if (date.prototype.toLocaleString) {
-        return date.toLocaleString('zh-CN', { hour12: false }).replace(/\//g, '-').replace(/\b\d\b/g, '0$&')
+    if (date.prototype.toLocaleDateString) {
+        return date.toLocaleDateString('zh-CN').replace(/\//g, '-').replace(/\b\d\b/g, '0$&')
     } else {
         function getDateString(date) {
             let year = date.getFullYear()
